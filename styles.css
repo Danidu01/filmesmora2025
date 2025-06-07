@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  background: #1f1f1f;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #f39c12;
+}
+
+#search {
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  font-size: 16px;
+}
+
+#movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie {
+  background: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+}
+
+.movie h3 {
+  padding: 10px;
+  font-size: 18px;
+  color: #f1c40f;
+}
